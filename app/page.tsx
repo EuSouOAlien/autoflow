@@ -417,16 +417,24 @@ export default function Home() {
     <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none" />
   </svg>
 </a>
- {/* Botão flutuante do WhatsApp */}
-    <a
-      href="https://wa.me/5544999126106"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-2xl transition-all duration-200 hover:scale-110"
-      aria-label="Falar no WhatsApp"
-    >
-      ☎
-    </a>
+
+      {/* Botão flutuante do WhatsApp */}
+<a
+  href="https://wa.me/554499126106"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl z-50"
+  aria-label="Falar no WhatsApp"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="white"
+    className="w-7 h-7"
+  >
+    <path d="M12.04 2C6.5 2 2 6.5 2 12.04c0 1.77.46 3.49 1.34 5.01L2 22l5.1-1.34a10 10 0 0 0 4.94 1.3h.01c5.54 0 10.04-4.5 10.04-10.04C22.09 6.5 17.58 2 12.04 2zm0 18.3a8.25 8.25 0 0 1-4.21-1.15l-.3-.18-3.03.8.81-2.95-.2-.31a8.25 8.25 0 1 1 6.93 3.79zm4.53-6.18c-.25-.13-1.47-.73-1.7-.81-.23-.08-.39-.13-.56.13-.16.25-.64.81-.79.97-.15.17-.29.19-.54.06-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.46-1.36-1.71-.14-.25-.01-.39.11-.52.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07s.89 2.4 1.02 2.57c.13.17 1.75 2.67 4.24 3.75.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.29z" />
+  </svg>
+</a>
 
     </main>
   );
