@@ -390,6 +390,16 @@ export default function Home() {
         </div>
 
       )}
+      {/* Botão flutuante do Instagram */}
+<a
+  href="https://www.instagram.com/projeto_onixsedan?stkn=eW5iZ3JhMzhrM3N5"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-24 right-6 bg-pink-600 hover:bg-pink-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-2xl transition-all duration-200 hover:scale-110"
+  aria-label="Instagram"
+>
+  ◎
+</a>
  {/* Botão flutuante do WhatsApp */}
     <a
       href="https://wa.me/5544999126106"
