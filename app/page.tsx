@@ -390,15 +390,32 @@ export default function Home() {
         </div>
 
       )}
-      {/* Botão flutuante do Instagram */}
+  
+
+  {/* Botão flutuante do Instagram */}
 <a
   href="https://www.instagram.com/projeto_onixsedan?stkn=eW5iZ3JhMzhrM3N5"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-24 right-6 bg-pink-600 hover:bg-pink-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg text-2xl transition-all duration-200 hover:scale-110"
+  className="fixed bottom-24 right-6 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-xl z-50"
+  style={{
+    background:
+      "linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%)",
+  }}
   aria-label="Instagram"
 >
-  ◎
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="white"
+    strokeWidth="2"
+    className="w-7 h-7"
+  >
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none" />
+  </svg>
 </a>
  {/* Botão flutuante do WhatsApp */}
     <a
